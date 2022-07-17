@@ -11,7 +11,9 @@ export default function CardItem({item}) {
       <Card.Text>
        {item.address}
       </Card.Text>
-      <Button variant="primary">Go somewhere</Button>
+      <Button variant="primary">Go somewhere</Button> <br />
+      
+
     </Card.Body>
   </Card>
   )

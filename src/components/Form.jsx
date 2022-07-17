@@ -24,9 +24,9 @@ export default function AddResto() {
       <Form.Control type="text" placeholder="Avenue x" name='address' onChange={handleChange}/>
     </Form.Group>
 
-    <Form.Group className="mb-3" controlId="formBasicPassword" name="nom" onChange={handleChange} >
+    <Form.Group className="mb-3" controlId="formBasicPassword"   >
       <Form.Label>Name</Form.Label>
-      <Form.Control type="text" placeholder="Plan b" />
+      <Form.Control type="text" placeholder="Plan b" name="nom" onChange={handleChange} />
     </Form.Group>
     <Form.Group className="mb-3" controlId="formBasicPassword">
       <Form.Label>Image</Form.Label>
